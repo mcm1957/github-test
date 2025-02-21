@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 20
       # - run: npm i
-      - run: git -m "testing"
+      - run: git commit -m "testing"
         env:
           IOBBOT_GITHUB_TOKEN: ${{ secrets.IOBBOT_GITHUB_TOKEN }}
       
