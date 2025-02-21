@@ -30,7 +30,7 @@ jobs:
           node-version: 20
       # - run: npm i
       - run: |
-          touch dummy.dummy
+          echo date > dummy.dummy
           git config user.name "  ioBroker Bot"
           git config user.email "<>"
           git commit -m "testing"
