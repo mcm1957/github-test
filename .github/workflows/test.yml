@@ -22,6 +22,9 @@ jobs:
     #   github.repository == 'iobroker-bot-orga/check-tasks'
       
     runs-on: ubuntu-latest
+    permissions:
+      conetents: write
+      
     steps:
     
       - uses: actions/checkout@v4
