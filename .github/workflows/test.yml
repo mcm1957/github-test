@@ -30,6 +30,8 @@ jobs:
       # - run: npm i
       - run: git -m "testing"
         env:
-          IOBBOT_GITHUB_TOKEN: ${{ secrets.IOBBOT_GITHUB_TOKEN }}      - run: git push -u origin HEAD
+          IOBBOT_GITHUB_TOKEN: ${{ secrets.IOBBOT_GITHUB_TOKEN }}
+      
+      - run: git push -u origin HEAD
         env:
           IOBBOT_GITHUB_TOKEN: ${{ secrets.IOBBOT_GITHUB_TOKEN }}
