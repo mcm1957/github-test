@@ -23,7 +23,7 @@ jobs:
       
     runs-on: ubuntu-latest
     permissions:
-      conetents: write
+      contents: write
       
     steps:
     
